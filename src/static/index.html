@@ -8,9 +8,10 @@
 </head>
 <body>
 <div class="header">
-    <h1>COIT</h1>
-    <input type="button" value="保存"/>
-    <input type="button" value="设置"/>
+    <ul class="nav-list clearfix">
+        <li>保存</li>
+        <li>设置</li>
+    </ul>
 </div>
 <div class="container">
     <div class="container-inner">
@@ -18,33 +19,34 @@
             <div class="lyt-row lyt-row1">
                 <div class="wrap">
                     <div class="wrap-inner">
-                        <div class="lyt-cell lyt-cell1">
-                            <div>
-                                <p>HTML</p>
-                                <input type="button" value="设置"/>
+                        <div class="lyt-c">
+                            <div class="lyt-cell lyt-cell1">
+                                <div class="content-title">
+                                    <p>HTML<span>设置</span></p>
+                                </div>
+                                <div class="html-input" contenteditable="true"></div>
                             </div>
-                            <textarea></textarea>
-                        </div>
-                        <div class="lyt-cell lyt-cell2">
-                            <div>
-                                <p>CSS</p>
-                                <input type="button" value="设置"/>
+                            <div id="splitterVertical1" class="splitter splitter-v"></div>
+                            <div class="lyt-cell lyt-cell2">
+                                <div class="content-title">
+                                    <p>CSS<span>设置</span></p>
+                                </div>
+                                <div class="html-input" contenteditable="true"></div>
                             </div>
-                            <textarea></textarea>
-                        </div>
-                        <div class="lyt-cell lyt-cell3">
-                            <div>
-                                <p>JS</p>
-                                <input type="button" value="设置"/>
+                            <div id="splitterVertical2" class="splitter splitter-v"></div>
+                            <div class="lyt-cell lyt-cell3">
+                                <div class="content-title">
+                                    <p>JS<span>设置</span></p>
+                                </div>
+                                <div class="html-input" contenteditable="true"></div>
                             </div>
-                            <textarea></textarea>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="lyt-row lyt-row2"></div>
         </div>
-        <div id="splitterHorizontal" class="splitter splitter-h"></div>
+        <!--<div id="splitterHorizontal" class="splitter splitter-h"></div>-->
     </div>
 </div>
 <div class="footer"></div>
